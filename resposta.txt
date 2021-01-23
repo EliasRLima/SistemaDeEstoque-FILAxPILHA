@@ -1,0 +1,21 @@
+Exemplo:
+
+Produto: Biscoito
+
+1. Valor compra: 1.5; Valor venda: 2.0; Data: 31/02/2021
+2. Valor compra: 1.6; Valor venda: 2.2; Data: 31/03/2021
+3. Valor compra: 1.7; Valor venda: 2.4; Data: 31/02/2021
+
+Fila: 
+  1;
+  2;
+  3;
+
+Pilha:
+  3;
+  2;
+  1;
+
+Resposta: Com o controle de estoque em fila, percebemos que o valor demora mais para sofrer com os valores atuais visto que neste a prioridade é sair os elementos que entraram primeiro.
+ No controle de estoque por pilha, isso nao acontece. A prioridade de saida é o do ultimo elemento a entrar no sistema, apesar do sistema sofrer mais com as mudanças de valores ele consegue manter em estoque produtos que foram comprados a um valor diferente do tual.
+ Ou seja, ambos tem suas vantagens e desvantagens. Por exemplo, caso um produto baixe o preço o com fila teria problemas por segurar o valor ainda acima e a pilha sofreria por manter um estoque de valor desvalorizando.
